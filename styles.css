@@ -99,6 +99,15 @@ h6 {
     grid-row: 1 / -1;
 }
 
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    unicode-bidi: isolate;
+}
+
 .headerContainer {
     background: rgb(255, 255, 205);
     grid-column: 2 / -1;
