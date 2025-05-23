@@ -86,14 +86,26 @@ h6 {
 }
 
 /************* MAIN CSS *************/
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 4fr;
+}
+
 .sidebarContainer {
     background: rgb(131, 204, 252);
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
 }
 
 .headerContainer {
     background: rgb(255, 255, 205);
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
 }
 
 .contentContainer {
     background: rgb(199, 199, 199);
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
 }
