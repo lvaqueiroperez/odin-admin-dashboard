@@ -130,18 +130,14 @@ ul {
 }
 
 .headerContainer {
-    background: rgb(255, 255, 205);
+    background: #fff;
     grid-column: 2 / -1;
     grid-row: 1 / 2;
 }
 
-.headerSection1 {
+.headerSection1 {}
 
-}
-
-.headerSection2 {
-    
-}
+.headerSection2 {}
 
 .contentContainer {
     background: rgb(199, 199, 199);
