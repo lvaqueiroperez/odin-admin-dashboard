@@ -135,6 +135,14 @@ ul {
     grid-row: 1 / 2;
 }
 
+.headerSection1 {
+
+}
+
+.headerSection2 {
+    
+}
+
 .contentContainer {
     background: rgb(199, 199, 199);
     grid-column: 2 / -1;
