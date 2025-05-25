@@ -104,6 +104,10 @@ h6 {
     padding: 1em;
 }
 
+.sidebarContainer img {
+    display: inline-block;
+}
+
 ul {
     display: block;
     list-style-type: none;
