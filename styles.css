@@ -119,6 +119,10 @@ ul {
     align-items: center;
 }
 
+.sidebarContainer img {
+    justify-self: center;
+}
+
 .sidebarContainer a {
     color: #fff;
     text-decoration: none;
