@@ -133,9 +133,34 @@ ul {
     background: #fff;
     grid-column: 2 / -1;
     grid-row: 1 / 2;
+    padding: 1em 2em;
 }
 
-.headerSection1 {}
+.headerSection1 {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.headerSearchContainer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 60%;
+}
+
+input {
+    border: #e1e0e0;
+    background: #e1e0e0;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.headerProfileContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
 .headerSection2 {}
 
