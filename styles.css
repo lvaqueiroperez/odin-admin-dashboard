@@ -224,7 +224,7 @@ input {
 .projectsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr 1fr 1fr;
+    grid-template-rows: 40px 1fr 1fr 1fr;
     grid-column: 1 / 2;
     grid-row: 1 / -1;
     justify-items: center;
