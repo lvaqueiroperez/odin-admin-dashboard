@@ -140,7 +140,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     gap: 40px;
-    box-shadow: 1px 4px 5px 0px #a1a1a1;
+    box-shadow: 1px 4px 5px 0px #c7c7c7;
     z-index: 1;
 }
 
