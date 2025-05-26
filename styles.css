@@ -224,9 +224,11 @@ input {
 .projectsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 1fr 1fr;
     grid-column: 1 / 2;
     grid-row: 1 / -1;
+    justify-items: center;
+    align-items: center;
 }
 
 #projectsTitle {
