@@ -209,10 +209,8 @@ input {
     color: #fff;
 }
 
-
-
 .contentContainer {
-    background: rgb(199, 199, 199);
+    background: rgb(237 237 237);
     grid-column: 2 / -1;
     grid-row: 2 / -1;
 }
