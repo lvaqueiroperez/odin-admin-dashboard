@@ -138,6 +138,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+    box-shadow: 1px 4px 5px 0px #a1a1a1;
+    z-index: 1;
 }
 
 .headerSection1 {
