@@ -241,3 +241,14 @@ input {
     width: 90px;
     background: #fff;
 }
+
+.trendingContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.trendingCard {
+    height: 100px;
+    width: 90px;
+    background: #fff;
+}
