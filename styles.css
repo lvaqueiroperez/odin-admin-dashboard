@@ -195,7 +195,10 @@ input {
     grid-row: 2 / -1;
 }
 
-.headerActionsContainer {}
+.headerActionsContainer {
+    display: flex;
+    gap: 25px;
+}
 
 .headerActionsContainer button {
     padding: 5px 20px;
