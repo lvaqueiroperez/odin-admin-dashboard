@@ -197,6 +197,14 @@ input {
 
 .headerActionsContainer {}
 
+.headerActionsContainer button {
+    padding: 5px 20px;
+    background: rgb(131, 204, 252);
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+}
+
 
 
 .contentContainer {
