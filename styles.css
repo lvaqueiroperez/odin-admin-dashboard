@@ -260,8 +260,11 @@ input {
 .trendingContainer {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr;
     grid-column: 2 / -1;
     grid-row: 2 / -1;
+    justify-items: center;
+    align-items: center;
 }
 
 .trendingCard {
