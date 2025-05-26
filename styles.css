@@ -103,6 +103,7 @@ ul {
     height: 100vh;
 }
 
+/************* SIDEBAR *************/
 .sidebarContainer {
     background: rgb(131, 204, 252);
     grid-column: 1 / 2;
@@ -129,6 +130,7 @@ ul {
     text-decoration: none;
 }
 
+/************* HEADER *************/
 .headerContainer {
     background: #fff;
     grid-column: 2 / -1;
@@ -209,6 +211,7 @@ input {
     color: #fff;
 }
 
+/************* CONTENT *************/
 .contentContainer {
     background: rgb(237 237 237);
     grid-column: 2 / -1;
