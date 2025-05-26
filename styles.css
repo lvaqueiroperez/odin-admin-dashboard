@@ -134,6 +134,10 @@ ul {
     grid-column: 2 / -1;
     grid-row: 1 / 2;
     padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
 }
 
 .headerSection1 {
