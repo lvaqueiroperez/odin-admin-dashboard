@@ -230,3 +230,14 @@ input {
     height: 100px;
     width: 90px;
 }
+
+.announcementsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.announcementsCard {
+    height: 100px;
+    width: 90px;
+    background: #fff;
+}
