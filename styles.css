@@ -213,12 +213,17 @@ input {
     background: rgb(237 237 237);
     grid-column: 2 / -1;
     grid-row: 2 / -1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .projectsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
 }
 
 #projectsTitle {
@@ -234,6 +239,8 @@ input {
 .announcementsContainer {
     display: grid;
     grid-template-columns: 1fr;
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
 }
 
 .announcementsCard {
@@ -245,6 +252,8 @@ input {
 .trendingContainer {
     display: grid;
     grid-template-columns: 1fr;
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
 }
 
 .trendingCard {
