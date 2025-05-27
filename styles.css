@@ -230,6 +230,7 @@ input {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
     gap: 25px;
+    justify-items: center;
 }
 
 #projectsTitle {
@@ -239,6 +240,7 @@ input {
 .projectsContainer>div {
     background: #fff;
     padding: 1.2em 1em;
+    max-inline-size: 50ch;
 }
 
 .announcementsContainer {
