@@ -242,11 +242,11 @@ input {
 }
 
 .announcementsContainer {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40px 1fr;
-    grid-column: 2 / -1;
-    grid-row: 1 / 2;
     justify-items: center;
     align-items: center;
 }
@@ -259,10 +259,10 @@ input {
 
 .trendingContainer {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40px 1fr;
     grid-column: 2 / -1;
     grid-row: 2 / -1;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr;
     justify-items: center;
     align-items: center;
 }
