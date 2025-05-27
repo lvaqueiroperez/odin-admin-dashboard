@@ -270,7 +270,7 @@ input {
 
 .announcementsCard {
     background: #fff;
-    padding: 1.5em 1.2em;
+    padding: 2em;
     max-inline-size: 50ch;
     height: 100%;
     display: flex;
