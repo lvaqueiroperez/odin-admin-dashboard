@@ -112,6 +112,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    font-size: clamp(0.75rem, 1.2vw, 3rem);
 }
 
 .sidebarContainer section {
@@ -119,6 +120,7 @@ ul {
     grid-template-columns: 1fr 4fr;
     align-items: center;
     column-gap: 10px;
+    row-gap: 15px;
 }
 
 .sidebarContainer img {
@@ -142,6 +144,7 @@ ul {
     gap: 40px;
     box-shadow: 1px 4px 5px 0px #c7c7c7;
     z-index: 1;
+    font-size: clamp(0.75rem, 1.2vw, 3rem);
 }
 
 .headerSection1 {
@@ -231,6 +234,7 @@ input {
     grid-row: 1 / -1;
     gap: 25px;
     justify-items: center;
+    align-items: center;
 }
 
 #projectsTitle {
@@ -240,11 +244,11 @@ input {
 .projectsContainer>div {
     background: #fff;
     padding: 1.5em 1.2em;
-    max-inline-size: 50ch;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-inline-size: 50ch;
+    font-size: clamp(0.75rem, 1vw, 2rem);
 }
 
 .cardButtons {
@@ -273,6 +277,8 @@ input {
     flex-direction: column;
     justify-content: center;
     font-size: 0.75rem;
+    max-inline-size: 45ch;
+    font-size: clamp(0.75rem, 0.8vw, 1.5rem);
 }
 
 .trendingContainer {
