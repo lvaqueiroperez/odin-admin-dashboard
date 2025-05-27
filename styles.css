@@ -220,6 +220,7 @@ input {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 1.5em 1em 3em 1em;
+    gap: 25px;
 }
 
 .projectsContainer {
