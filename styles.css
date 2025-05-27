@@ -243,6 +243,12 @@ input {
     max-inline-size: 50ch;
 }
 
+.cardButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
 .announcementsContainer {
     grid-column: 2 / -1;
     grid-row: 1 / 2;
