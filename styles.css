@@ -234,7 +234,6 @@ input {
     grid-row: 1 / -1;
     gap: 25px;
     justify-items: center;
-    align-items: center;
 }
 
 #projectsTitle {
