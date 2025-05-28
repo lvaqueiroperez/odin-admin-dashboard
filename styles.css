@@ -246,7 +246,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-inline-size: 50ch;
     font-size: clamp(0.75rem, 0.5rem + 0.5vw, 4rem);
 }
 
@@ -273,7 +272,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-inline-size: 45ch;
     font-size: clamp(0.75rem, 0.5rem + 0.3vw, 2rem);
 }
 
@@ -293,7 +291,6 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-inline-size: 45ch;
     font-size: clamp(0.75rem, 0.5rem + 0.3vw, 2rem);
     gap: 25px;
 }
