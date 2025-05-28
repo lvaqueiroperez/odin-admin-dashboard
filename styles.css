@@ -284,11 +284,37 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 40px 1fr;
     justify-items: center;
-    align-items: center;
+    gap: 25px;
 }
 
 .trendingCard {
-    height: 100px;
-    width: 90px;
     background: #fff;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-inline-size: 45ch;
+    font-size: clamp(0.75rem, 0.5rem + 0.3vw, 2rem);
+    gap: 25px;
+}
+
+.trendingCard>div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trendingCard img {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+
+.trendingCard .userName {
+    grid-column: 2 / -1;
+    grid-row: 1 / 2;
+}
+
+.trendingCard .userDescription {
+    grid-column: 2 / -1;
+    grid-row: 2 / -1;
 }
