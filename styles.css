@@ -252,6 +252,20 @@ input {
     box-shadow: 1px 4px 5px 0px #c7c7c7;
 }
 
+.projectsContainer>div>h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.projectsContainer>div>p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 .cardButtons {
     display: flex;
     justify-content: flex-end;
