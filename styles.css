@@ -276,6 +276,8 @@ input {
     flex-direction: column;
     justify-content: center;
     font-size: clamp(0.75rem, 0.5rem + 0.3vw, 2rem);
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px 0px #c7c7c7;
 }
 
 .trendingContainer {
@@ -296,6 +298,8 @@ input {
     justify-content: center;
     font-size: clamp(0.75rem, 0.5rem + 0.3vw, 2rem);
     gap: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px 0px #c7c7c7;
 }
 
 .trendingCard>div {
