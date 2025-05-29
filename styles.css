@@ -222,7 +222,7 @@ input {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 1.5em 1em 3em 1em;
+    padding: 4em 1em 3em 1em;
     column-gap: 25px;
 }
 
@@ -231,13 +231,16 @@ input {
     grid-row: 1 / -1;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 38%));
-    grid-template-rows: 40px;
     gap: 25px;
     justify-content: center;
     grid-auto-rows: minmax(200px, 20%);
+    position: relative;
 }
 
 #projectsTitle {
+    position: absolute;
+    top: -40px;
+    z-index: 1;
     grid-column: 1 / -1;
 }
 
