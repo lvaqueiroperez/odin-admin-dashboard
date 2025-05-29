@@ -230,10 +230,10 @@ input {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 38%));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 45%));
     gap: 25px;
     justify-content: center;
-    grid-auto-rows: minmax(200px, 20%);
+    grid-auto-rows: minmax(200px, 30%);
     position: relative;
 }
 
@@ -246,7 +246,7 @@ input {
 
 .projectsContainer>div {
     background: #fff;
-    padding: 1.5em 1.2em;
+    padding: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
