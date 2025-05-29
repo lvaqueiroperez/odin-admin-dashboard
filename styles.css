@@ -230,10 +230,11 @@ input {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 30%));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 38%));
     grid-template-rows: 40px;
     gap: 25px;
     justify-content: center;
+    grid-auto-rows: minmax(200px, 20%);
 }
 
 #projectsTitle {
@@ -250,6 +251,7 @@ input {
     border-left: #f9c923 10px solid;
     border-radius: 10px;
     box-shadow: 1px 4px 5px 0px #c7c7c7;
+    position: relative;
 }
 
 .projectsContainer>div>h3,
@@ -274,7 +276,9 @@ h4+p {
     display: flex;
     justify-content: flex-end;
     gap: 25px;
-    padding-top: 3.5em;
+    position: absolute;
+    bottom: 18px;
+    right: 30px;
 }
 
 .announcementsContainer {
