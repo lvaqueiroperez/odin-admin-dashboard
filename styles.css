@@ -307,13 +307,14 @@ h4+p {
 }
 
 .trendingContainer {
-    display: grid;
     grid-column: 2 / -1;
     grid-row: 2 / -1;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40px 1fr;
-    justify-items: center;
-    gap: 25px;
+    position: relative;
+}
+
+.trendingTitle {
+    position: absolute;
+    top: -40px;
 }
 
 .trendingCard {
