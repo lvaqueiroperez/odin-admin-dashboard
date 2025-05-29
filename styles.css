@@ -220,10 +220,9 @@ input {
     grid-column: 2 / -1;
     grid-row: 2 / -1;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr minmax(200px, 1fr);
     grid-template-rows: 1fr 1fr;
     padding: 4em 1em 3em 1em;
-    column-gap: 25px;
 }
 
 .projectsContainer {
