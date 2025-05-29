@@ -292,6 +292,8 @@ h4+p {
 
 .announcementsContainer {
     position: relative;
+    position: relative;
+    width: clamp(150px, 80%, 80%);
 }
 
 .announcementsTitle {
@@ -312,6 +314,8 @@ h4+p {
 
 .trendingContainer {
     position: relative;
+    position: relative;
+    width: clamp(150px, 80%, 80%);
 }
 
 .trendingTitle {
