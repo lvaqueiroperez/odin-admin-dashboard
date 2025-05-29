@@ -287,11 +287,12 @@ h4+p {
 .announcementsContainer {
     grid-column: 2 / -1;
     grid-row: 1 / 2;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40px 1fr;
-    justify-items: center;
-    gap: 25px;
+    position: relative;
+}
+
+.announcementsTitle {
+    position: absolute;
+    top: -40px;
 }
 
 .announcementsCard {
