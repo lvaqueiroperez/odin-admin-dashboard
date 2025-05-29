@@ -233,7 +233,6 @@ input {
     grid-template-columns: repeat(auto-fill, minmax(300px, 30%));
     grid-template-rows: 40px;
     gap: 25px;
-    justify-items: center;
     justify-content: center;
 }
 
