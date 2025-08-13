@@ -255,6 +255,7 @@ input {
     position: relative;
 }
 
+/* FOR TEXT ELIPSIS */
 .projectsContainer>div>h3,
 h4,
 .trendingCard .userName,
